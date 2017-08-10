@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.sysjo.appmedica.appmedica.DashboardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <GridLayout
+        android:id="@+id/icons_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/fa_medkit" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tratamientos"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnSpan="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/fa_male" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pasos"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnSpan="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/fa_heartbeat" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pulso"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnSpan="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    </GridLayout>
+
+</FrameLayout>

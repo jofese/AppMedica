@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AppMedica</string>
+    <string name="title_activity_dashboard">Aplicación Médica</string>
+    <string name="title_activity_tratamientos">Tratamientos</string>
+    <string name="title_activity_medicamentos">Medicamentos</string>
+    <string name="title_activity_contador_pasos">Contador de Pasos</string>
+    <string name="title_activity_lector_pulso">Lector de Pulso</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+    <string name="title_activity_datos_personales">Datos Personales</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Datos Personales</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

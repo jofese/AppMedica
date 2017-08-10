@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.sysjo.appmedica.appmedica.Login">
+
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            />
+        <RelativeLayout
+            android:id="@+id/icons_container"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:orientation="vertical"
+            android:layout_weight="0.24">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                app:srcCompat="@mipmap/medico"
+                app:layout_constraintTop_toTopOf="parent"
+                android:gravity="center"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.247" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:gravity="center"
+            android:text="App Médica"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#45BF55"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Ingresar"
+                android:textStyle="bold"
+                android:textColor="@color/accent"
+                style="?android:attr/borderlessButtonStyle"
+                tools:layout_editor_absoluteX="158dp"
+                tools:layout_editor_absoluteY="268dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

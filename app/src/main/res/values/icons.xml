@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fa_user_md">&#xf0f0;</string>
+    <string name="fa_medkit">&#xf0fa;</string>
+    <string name="fa_male">&#xf183;</string>
+    <string name="fa_heartbeat">&#xf21e;</string>
+</resources>

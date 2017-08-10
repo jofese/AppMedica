@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_tratamientos"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Tratamientos" />
+        <item
+            android:id="@+id/nav_medicamentos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Medicamentos" />
+        <item
+            android:id="@+id/nav_contador_pasos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Contador Pasos" />
+        <item
+            android:id="@+id/nav_lector_pulsos"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Lector de pulsos" />
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuración" />
+    </group>
+
+
+
+</menu>
